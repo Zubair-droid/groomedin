@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: blue;
+}
+
+.navbar-container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+nav .navbar-brand{
+    font-size: 1rem;
+}
+
+.navbar{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 22px 33px;
+    
+}
+ 
+.collapse{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.nav-item{
+    margin: 0 50px 0 50px;
+    
+}
+
+.bg-img{
+    width: 100%;
+    height: auto; 
+    padding-top: 20px;
+    margin-bottom: 0;
+    
+}
+.left-text{
+    color: white;
+    font-size: 2rem;
+    width: 80%;
+    height: auto;
+    text-align: start;
+    margin-left: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*Second section  */
+
+.second-section{
+    background-color: rgb(17, 74, 139);
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    padding: 8% 5%;
+}
+.card{
+    height: auto;
+    width: 100%;
+}
+
+.columns{
+    padding: 3% 0;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+}
+
+.card-head{
+    padding: 2% 0;
+    background-color: rgb(17, 74, 139);
+    color: white;
+    font-weight: 400;
+}
+
+.card-body{
+   
+    background-color: orange;
+    color: black;
+}
+.card-text{
+    padding: 10%; 
+}
+
+
+
+/* third-section */
+.third-section{
+    background-color: orange;
+    height: auto;
+   
+}
+
+.apparel-cards .card{
+    margin: 10% 0;
+}
+.apparel-cards{
+    margin-top: 100px;
+    padding: 4% 12%;
+    justify-content: center;
+    text-align: center;
+}
+
+.apparel-card-head{
+    padding: 2% 10%;
+    background-color: orange;
+    color: black;
+}
+
+.apparel-card-body1{
+    color: rgb(255, 255, 255);
+    padding: 9% 10%;
+    border: 1px solid rgb(17, 74, 139);
+    border-radius: 6px;
+    background-color: rgb(17, 74, 139);
+    
+}
+.apparel-card-body1 a{
+    margin-top: 30px;
+     
+ }
+
+.apparel-card-body2{
+    color: rgb(255, 255, 255);
+    padding: 14% 10%;
+    border: 1px solid rgb(17, 74, 139);
+    border-radius: 6px;
+    background-color: rgb(17, 74, 139);
+    
+}
+.apparel-card-body2 a{
+   margin-top: 30px;
+    
+}
+.apparel-img1 .img{
+    width: 256px;
+    
+}
+.apparel-img2 .img{
+     width: 256px;
+     
+ }
+ 
+
+
+/* Fourth section */
+.fourth-section{
+    text-align: center;
+    background-color: rgb(17, 74, 139);
+}
+
+
+
+
+/* Fifth section */
+.fifth-section{
+    text-align: center;
+    background-color: rgb(17, 74, 139);
+
+}
+
+footer{
+    text-align: center;
+    background-color: #303960;
+}
