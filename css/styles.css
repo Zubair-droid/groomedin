@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Ubuntu:wght@300&display=swap');
+
+
 body{
     justify-content: center;
     align-items: center;
     position: relative;
     background-color: blue;
+    overflow-x: hidden;
 }
 
 .navbar-container{
@@ -14,6 +17,7 @@ body{
 }
 nav .navbar-brand{
     font-size: 1rem;
+    font-family: 'Ubuntu',sans-serif;
 }
 
 .navbar{
@@ -33,7 +37,7 @@ nav .navbar-brand{
 
 .nav-item{
     margin: 0 50px 0 50px;
-    
+    font-family: 'Ubuntu',sans-serif;
 }
 
 .bg-img{
@@ -54,6 +58,15 @@ nav .navbar-brand{
 }
 
 
+/* carousel-section */
+/* .carousel-container{
+    background-color:orange;
+} */
+
+.text-start{
+    font-size: calc(3.5rem + vw);
+    font-family: 'Montserrat',sans-serif;
+}
 
 /*Second section  */
 
@@ -62,36 +75,39 @@ nav .navbar-brand{
     display: flex;
     justify-content: center;
     overflow-x: hidden;
-    padding: 8% 5%;
-}
-.card{
-    height: auto;
-    width: 100%;
+    padding: 8% 15%;
+    
 }
 
-.columns{
-    padding: 3% 0;
+
+
+.why-cards{
+    padding: 1%;
     text-align: center;
     align-items: center;
-    width: fit-content;
-    height: auto;
+    justify-content: center;
 }
 
+.why-cards .card{
+    margin: auto;
+    text-align: center;   
+}
+
+
 .card-head{
-    padding: 2% 0;
+    padding: 2%;
     background-color: rgb(17, 74, 139);
     color: white;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card-body{
-   
+    text-align: center;
     background-color: orange;
     color: black;
+    font-family: 'Ubuntu', sans-serif;
 }
-.card-text{
-    padding: 10%; 
-}
+
 
 
 
@@ -116,6 +132,7 @@ nav .navbar-brand{
     padding: 2% 10%;
     background-color: orange;
     color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .apparel-card-body1{
@@ -124,7 +141,7 @@ nav .navbar-brand{
     border: 1px solid rgb(17, 74, 139);
     border-radius: 6px;
     background-color: rgb(17, 74, 139);
-    
+    font-family: 'Ubuntu', sans-serif;
 }
 .apparel-card-body1 a{
     margin-top: 30px;
@@ -137,7 +154,7 @@ nav .navbar-brand{
     border: 1px solid rgb(17, 74, 139);
     border-radius: 6px;
     background-color: rgb(17, 74, 139);
-    
+    font-family: 'Ubuntu', sans-serif;
 }
 .apparel-card-body2 a{
    margin-top: 30px;
@@ -157,7 +174,17 @@ nav .navbar-brand{
 /* Fourth section */
 .fourth-section{
     text-align: center;
-    background-color: rgb(17, 74, 139);
+    /* background-color: rgb(17, 74, 139); */
+
+    margin: 2% 4%;
+}
+
+.her-text{
+    width: 70%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -166,11 +193,25 @@ nav .navbar-brand{
 /* Fifth section */
 .fifth-section{
     text-align: center;
-    background-color: rgb(17, 74, 139);
+    /* background-color: rgb(17, 74, 139); */
+   
+}
 
+
+.his-text{
+    width: 70%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.cta{
+    background-color: #303960;
+    color: white;
 }
 
 footer{
     text-align: center;
     background-color: #303960;
+    font-family: 'Ubuntu', sans-serif;
 }
