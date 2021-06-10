@@ -60,15 +60,68 @@ nav .navbar-brand{
 }
 
 
+
+
+/* dropdown on hover */
+.dropbtn {
+    background-color: #303960;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 8px;
+  }
+
+  .dropdown-content a:hover{
+      text-decoration: #303960;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  
+.main-section{
+    font-size: calc(3.5rem + vw);
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+
+
 /* carousel-section */
 /* .carousel-container{
     background-color:orange;
 } */
-
-.text-start{
-    font-size: calc(3.5rem + vw);
-    font-family: 'Montserrat',sans-serif;
-}
 
 /*Second section  */
 
@@ -77,14 +130,16 @@ nav .navbar-brand{
     display: flex;
     justify-content: center;
     overflow-x: hidden;
-    padding: 8% 15%;
-    
+    padding: 1% 15%;
+   
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
-
 .why-cards{
-    padding: 1%;
+    
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -105,7 +160,7 @@ nav .navbar-brand{
 
 .card-body{
     text-align: center;
-    background-color: orange;
+    /* background-color: orange; */
     color: black;
     font-family: 'Ubuntu', sans-serif;
 }
