@@ -133,10 +133,17 @@ nav .navbar-brand{
     padding: 1% 15%;
    
 }
-h3{
+
+h3,h4,h5{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.card{
+    border-radius: 66px;
+    background: #e0e0e0;
+    box-shadow:  26px 26px 52px #949494,
+             -26px -26px 52px #ffffff;
+}
 
 .why-cards{
     
@@ -236,6 +243,12 @@ h3{
     margin: 2% 4%;
 }
 
+@media(min-width: 540px){
+    .fourth-section, .fifth-section{
+        max-width: 75%;
+    }
+}
+
 .her-text{
     width: 70%;
     margin: auto;
@@ -269,6 +282,20 @@ h3{
 
 footer{
     text-align: center;
-    background-color: #303960;
+    color: black;
+    background: none;
     font-family: 'Ubuntu', sans-serif;
+}
+
+/* .carousel{
+    width: 75%;
+    margin-top: 200px;
+    border-radius: 66px;
+    background: #e0e0e0;
+    box-shadow:  26px 26px 52px #949494,
+             -26px -26px 52px #ffffff;
+} */
+
+.carousel-card img{
+    border-radius: 20px;
 }
