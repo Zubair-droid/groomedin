@@ -114,7 +114,7 @@ nav .navbar-brand{
 .main-section{
     font-size: calc(3.5rem + vw);
     font-family: 'Montserrat',sans-serif;
-    height: 80vh;
+    
 }
 
 
@@ -184,6 +184,12 @@ h3,h4,h5{
     background-color: #303960;
     width: 100%;
     padding-top: 5%; 
+}
+
+@media(min-width: 768px){
+    .whyus{
+        margin-top: 50px;
+    }
 }
 
 
