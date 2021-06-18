@@ -186,9 +186,19 @@ h3,h4,h5{
     padding-top: 5%; 
 }
 
+.WhyUs-section{
+    width: 75%;
+}
+
 @media(min-width: 768px){
     .whyus{
         margin-top: 50px;
+    }
+}
+
+@media(max-width: 540px){
+    .WhyUs-section{
+        width: 100%;
     }
 }
 
