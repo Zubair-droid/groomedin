@@ -50,13 +50,15 @@ nav .navbar-brand{
     
 }
 .left-text{
-    color: white;
-    font-size: 2rem;
+    
+    font-size: calc(3rem + vh);
     width: 80%;
-    height: auto;
+    line-height: 1.4;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: start;
     margin-left: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -116,7 +118,10 @@ nav .navbar-brand{
     font-family: 'Montserrat',sans-serif;
     
 }
-
+.first{
+    justify-content: center;
+    
+}
 
 
 
