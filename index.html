@@ -49,9 +49,26 @@
     padding:0;
     overflow-x:hidden;
     }
+    #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  left: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #303960;
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+
  </style>
 <body>
-
+   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <!-- first-section -->
      <div class="navbar-container">
@@ -75,6 +92,9 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#about" >About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#reach" >Contact</a>
                     </li>
                    
                     <li class="nav-item">
@@ -132,7 +152,7 @@
 
     <!-- Why Us -->
     <section class="whyus" id = "whyus" >
-    <div class="WhyUs-section text-center  m-auto p-5">
+    <div class="WhyUs-section text-center  m-auto  p-5">
       <h3 class="fw-bold pt-3">Why Choose Us?</h3>
       <h4 class="fw-bold pt-3">We got you covered</h4>
       <p>Heads up to the scenario, whenever you tend to shop seasonly, you wander out shop by shop in search of 
@@ -152,9 +172,9 @@
 
 
     
-    <!-- second-section -->
+    <!-- documentsecond-section -->
     <section class="secondsection text-center mt-5" id = "blog">
-      <span class="text-center fs-1 fw-bolder" style="color: #303960;">Groom On, because it's you.</span> 
+      <span class="text-center fs-1 fw-bolder" style="color: #303960;">Groom On, because it's You.</span> 
       <div class="second-section container-fluid bg-white mt-5">
 
        
@@ -532,10 +552,7 @@
 
 
 
-
-
-
-     <section class="fifth-section m-auto mt-5" id = "">
+    <section class="fifth-section m-auto mt-5" id = "">
          <h4 class="his-text mt-10 ">Checkout some of the whooping grooming products for him</h4>
         <div class="row m-5 mt-5">
         <div class="col-sm-12 col-md-6 col-lg-4">
@@ -650,9 +667,7 @@
     
     
 
-
-
-    <section class="cta px-3 mt-5 py-1" id = "about">
+    <section class="cta px-3 mt-5 py-3 py-1" id = "about">
 
       <div class="row m-auto w-100 d-flex justify-content-center mt-5">
          <div class="col-lg-12 col-md-12 col-sm-12 text-center">
@@ -696,17 +711,45 @@
 
 
    
-    <footer>
+    <footer id="reach">
       <h5 class="text-center mt-2">Reach us at </h5>
-        <div class="cta-icons d-flex ms-auto justify-content-center">
-            <button class="bg-transparent border-0" ><a style = "color: rgb(65, 112, 212);" href="https://www.facebook.com/profile.php?id=100052115259244" target="_blank"><i  class="fab fa-facebook-f px-2 "></i></a></button>
-            <button class="bg-transparent border-0" ><a style = "color: rgba(189, 118, 128, 0.863);" href="https://www.facebook.com/profile.php?id=100052115259244" target="_blank"><i  class="fab fa-instagram px-2"></i></a></button>
-            <button class="bg-transparent border-0" ><a style = "color: rgb(146, 177, 243)"href="https://www.facebook.com/profile.php?id=100052115259244" target="_blank"><i  class="fab fa-twitter px-2"></i></a></button>
+        <div class="cta-icons d-flex ms-auto justify-content-center py-3">
+            <button class="bg-transparent border-0" ><a style = "color: rgb(65, 112, 212);" href="https://www.facebook.com/profile.php?id=100052115259244" target="_blank"><i  class="fab fa-facebook-f px-1 "></i></a></button>
+            <button class="bg-transparent border-0" ><a style = "color: rgba(189, 118, 128, 0.863);" href="https://www.facebook.com/profile.php?id=100052115259244" target="_blank"><i  class="fab fa-instagram px-1"></i></a></button>
+            <button class="bg-transparent border-0" ><a style = "color: rgb(146, 177, 243)"href="https://www.facebook.com/profile.php?id=100052115259244" target="_blank"><i  class="fab fa-twitter px-1"></i></a></button>
         
         </div>
    
   </footer>
-     
+  
+
+  <!-- top button -->
+  
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {
+    scrollFunction()
+    };
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+  
+  </script>
+  
 
 </body>
 </html>
