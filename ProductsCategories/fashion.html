@@ -27,6 +27,7 @@
 </head>
 <style>
   body{
+    
     background-color: rgba(0,0,0,0.06);
     overflow-x: hidden;
   }
@@ -38,10 +39,9 @@
     z-index: 99;
     font-size: 18px;
     border: none;
-    outline: none;
     background-color: #303960;
     color: white;
-    cursor: pointer;
+   
     padding: 7px;
     border-radius: 4px;
   }
@@ -52,7 +52,7 @@
     <!-- navbar -->
     <div class="navbar-container">
     <nav class="navbar navbar-expand-lg navbar-dark p-2" style="background-color: #303960;">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="../index.html">
             <h3 class="navbar-brand">GroomedOn</h3>
           </a>
@@ -66,11 +66,9 @@
               <a class="nav-link text-light" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-light" href="#">Why Choose Us?</a>
+              <a class="nav-link text-light" href="#reach">Contact</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link text-light" href="#">About</a>
-            </li>
+            
             
 
             <div class="dropdown">
@@ -137,7 +135,7 @@
 <!-- Products Carousel1 -->
 <div class="carousel-1">
   <h4 class="text-center mt-5 mb-0">Top Deals on Myntra</h4>
-<div class="carousel mt-2 pt-5" data-flickity='{"freeScroll": true, "wrapAround": true, "autoPlay":false, "pageDots": false}'>
+<div class="carousel mt-2 pt-5" data-flickity='{"prevButtons": false, "freeScroll": true, "wrapAround": true, "autoPlay":false, "pageDots": false}'>
    
   <div class="carousel-card p-2">
         <div class="cards" style="width: 18rem;">
@@ -196,7 +194,8 @@
 </div>
 
 <!-- Carousel 2 -->
-<h4 class="text-center mt-5 mb-0">Top Deals on AJIO</h4>
+<div class="">
+<h4 class="text-center mt-5 mb-0 ">Top Deals on AJIO</h4>
 <div class="carousel mt-2 py-5 " data-flickity='{ "wrapAround": true, "autoPlay": false, "pageDots": false, "contain": true}'>
     <div class="carousel-card p-2">
         <div class="cards" style="width: 18rem;">
@@ -253,9 +252,10 @@
          
     </div>
 </div>
-
+</div>
 <!-- carousel 3 -->
-<h4 class="text-center mt-5 mb-0">Top Deals on Amazon</h4>
+<div class="">
+<h4 class="text-center mt-5 mb-0 ">Top Deals on Amazon</h4>
 <div class="carousel mt-2 py-5" data-flickity='{ "wrapAround": true, "autoPlay": false, "pageDots": false, "contain": true}'>
     <div class="carousel-card p-2">
         <div class="cards" style="width: 18rem;">
@@ -316,11 +316,13 @@
          
     </div>
 </div>
-<section id="reach" class="my-5">
+</div>
+
+<section id="reach" class="my-3">
   <h4 class="text-center fw-bold">Contact us</h4>
-  <div class="row my-3">
+  <div class="d-flex row  m-auto py-3">
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <form class=" text-center " action="mailto:syedzubair3693@gmail.com">
+      <form class=" text-center "autocomplete="on" action="mailto:syedzubair3693@gmail.com">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
           <input type="email" class="form-control w-75 m-auto" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -352,9 +354,9 @@
     </div>
   </div>
 </section>
-<footer>
+<footer class="sticky-bottom">
   <span class="text-secondary text-center">No copyright © 2021 GroomedOn</span>
-</footer>
+</footer> 
 
 
 

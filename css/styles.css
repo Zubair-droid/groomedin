@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Ubuntu:wght@300&display=swap');
 
-
 body{
+    margin: 0;
+    padding: 0;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -321,11 +322,11 @@ footer{
     font-family: 'Ubuntu', sans-serif;
 }
 
-.carousel{
+/* .carousel{
     background: none;
     border-radius: 44px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
+} */
 
 .carousel-card img{
     border-radius: 20px;
