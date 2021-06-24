@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Ubuntu:wght@300&display=swap');
 
 
-/* body{
+body{
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: blue;
+    width: 100%;
+    height: auto;
     overflow-x: hidden;
-} */
+}
 
 .navbar-container{
     justify-content: center;
@@ -60,8 +61,6 @@ nav .navbar-brand{
     margin-left: 14px;
     font-family: 'Montserrat', sans-serif;
 }
-
-
 
 
 /* dropdown on hover */
@@ -314,6 +313,7 @@ h3,h4,h5{
 }
 
 footer{
+    bottom: 0;
     padding-top: 10px;
     text-align: center;
     color: rgb(255, 255, 255);
